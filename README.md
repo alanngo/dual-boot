@@ -1,12 +1,18 @@
-<img src="./assets/linux/ubuntu-logo.png" width='25' align='right'>
-<img src="./assets/windows/windows-logo.png" width='25' align='left'>
+
+<table>
+<tr>
+    <td>
+        <img src="./assets/windows/windows-logo.png" width='25' align='left'>
+    </td>
+    <td> <h1>Dual Booting Windows 10 & Ubuntu 22.04 in 2023</h1></td>
+    <td>
+        <img src="./assets/linux/ubuntu-logo.png" width='25' align='right'>
+    </td>
+</tr>
+
+</table>
 
 
-<div align="center">
-
-# Dual Booting Windows 10 & Ubuntu 22.04 in 2023
-
-</div>
 
 ## Growing Pains & Resolutions
 
