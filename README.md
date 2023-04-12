@@ -20,6 +20,8 @@
 ### [Audio not Working](#noaudio)
 ### [Wrong Time in Windows](#wrongtime)
 ### [Uninstalling Nvidia Drivers](#nvidiadrivers)
+### ["Disk is Read Only!"" Error](#readonlydisks)
+
 
 
 
@@ -92,7 +94,7 @@ source: https://www.youtube.com/watch?v=A70s-C-yWTQ&list=LL&index=4
 
 ## 🖥️ Uninstalling Nvidia Drivers
 
-**Cause:** You might be installing an Nvidia driver, but after rebooting, you get greeted by a black screen of death
+**Cause:** You might be installing an Nvidia driver from the wrong source, but after rebooting, you get greeted by a black screen of death
 
 1. Boot your system in recovery mode by selecting ``Advanced options for Ubuntu``
 
@@ -118,5 +120,32 @@ $ echo 'nouveau' | sudo tee -a /etc/modules
 5. Reboot your system
 
 source: https://askubuntu.com/questions/206283/how-can-i-uninstall-a-nvidia-driver-completely
+
+</div>
+
+<div id="readonlydisks">
+
+## 🚫 "Disk is Read Only!"" Error
+
+**Cause:** Windows and Linux both have access to the same drive, causing a multiple ownership problem. To preserve intergity, Linux refueses to modify the drive, thus creating the error
+
+1. Boot into Windows
+2. Press ``Win-Key`` + ``R``, type ``powercfg.cpl`` and press ``Enter``
+    - The 'power options' screen should pop up
+3. Click on ``Choose what the power button does``
+
+<img src="./assets/windows/powerbutton.png">
+
+4. Click on ``Change settings that are currently unavailable``
+
+<img src="./assets/windows/unavailablesettings.jpg">
+
+5. Uncheck the ``Turn of fast startup (recommended)`` option
+
+<img src="./assets/windows/faststartup.png">
+
+6. Reboot into Ubuntu
+
+source: https://www.youtube.com/watch?v=CdLcJLKEMbY
 
 </div>
