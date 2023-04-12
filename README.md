@@ -19,8 +19,8 @@
 ### [Slow Wifi](#slowifi)
 ### [Audio not Working](#noaudio)
 ### [Wrong Time in Windows](#wrongtime)
-### [Uninstalling Nvidia Drivers](#nvidiadrivers)
-### ["Disk is Read Only!"" Error](#readonlydisks)
+### [Nvidia Drivers Black Screen](#nvidiadrivers)
+### ["Disk is Read Only!" Error](#readonlydisks)
 
 
 
@@ -92,7 +92,7 @@ source: https://www.youtube.com/watch?v=A70s-C-yWTQ&list=LL&index=4
 
 <div id="nvidiadrivers">
 
-## 🖥️ Uninstalling Nvidia Drivers
+## 🖥️ Nvidia Drivers Black Screen
 
 **Cause:** You might be installing an Nvidia driver from the wrong source, but after rebooting, you get greeted by a black screen of death
 
