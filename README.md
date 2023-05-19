@@ -12,7 +12,7 @@
 
 </table>
 
-
+#### Discord: https://discord.gg/qqPhfh2xeq
 
 ## Growing Pains & Resolutions
 
@@ -21,8 +21,6 @@
 ### [Wrong Time in Windows](#wrongtime)
 ### [Nvidia Drivers Black Screen](#nvidiadrivers)
 ### ["Disk is Read Only!" Error](#readonlydisks)
-
-
 
 
 <div id='slowwifi'>
@@ -125,7 +123,7 @@ source: https://askubuntu.com/questions/206283/how-can-i-uninstall-a-nvidia-driv
 
 <div id="readonlydisks">
 
-## 🚫 "Disk is Read Only!"" Error
+## 🚫 "Disk is Read Only!" Error
 
 **Cause:** Windows and Linux both have access to the same drive, causing a multiple ownership problem. To preserve intergity, Linux refueses to modify the drive, thus creating the error
 
